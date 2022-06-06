@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="KEYWORDS" content="colores, fuentes, tipografias">
+    
+    <meta name="author" content="Leidy Patricia Arteaga">
+    <meta name="name" description="uso de colores para cajas y textos en bootstrap">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/foto.png">
+    <link rel="stylesheet" type="text/css" href="css/formulario.css">
+    <title>TAREA 1 FORMULARIO</title>
+</head>
+<body>    
+    <h2>Historia de la web</h2>
+        <p>Analizando la información sobre la historia de la web, vista en la clase pasapa, podemos darnos cuenta de lo 
+            importante que es en nuestro diario vivir, ya que nos ayuda a realizar actividades o procesos de una manera 
+            muy fácil y rápida en compaación a cómo se realizaba esto en el pasado.</p>
+        <p>Es necesario entender que web e internet no son lo mismo,<b>Tim Berners-Lee</b> fue quien inició y creo la primera página
+            web. Las primeras páginas web aparecieron en 1991, eran muy básicas ya que solo tenían texto y en 1992 aparece html
+            que es el lenguaje para crear páginas web y de ahí en adelante herramientas como navegadores gráficos, buscadores,
+            php para diseño web dinámico, motores de bases de datos, programas en java, css para dar estilo a la web, almacenamiento 
+            en la nube, entre otras herramientas que nos permiten crearpáginas web con mayor agilidad.</p>
+
+    <section class="container">
+        <div class="row my-5">
+
+            <div class="col-lg-12 col-md-12 col-lg-12">
+                <form action="" method="post" class="forcolor">
+            
+            <h3 class="display-5 text-primary text-center">REGISTRO PERSONAL</h3>
+                <div class="form-group">
+                    <label>Nombre:</label>
+                    <input type="text" placeholder="Introduzca Nombre" maxlength="20" id="nombre" name="nombre" class="form-control">
+                </div>
+            <br>
+                <div class="form-group">
+                    <label>Domicilio:</label>
+                    <input type="text" placeholder="Introduzca Domicilio" maxlength="20" id="direccion" name="direccion" class="form-control">
+                </div>
+            <br>
+                <div class="form-group">
+                    <label>Celular:</label>
+                <input type="number" placeholder="Introduzca Celular" id="celular" name="celular" class="form-control">
+                </div>
+            <br>
+            <div class="form-group">
+                <label>Cargo:</label>
+                <select name="cargo" id="cargo" class="form-control">
+                    <option value="Estudiante">Estudiante</option>
+                    <option value="Docente">Docente</option>
+                    <option value="Administrativo">Administrativo</option>
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <label>Agregue el archivo de su fotografia</label>
+                <input type="file" class="form-control">
+            </div>
+            <br>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-info">Guardar</button>
+                <button type="submit" class="btn btn-success">Limpiar</button>
+                <button type="submit" class="btn btn-warning">Ver Lista</button>
+            </div>
+        </div>
+        </div>
+        </form> 
+        <hr>
+    </section>
+        <footer class="blockquote-footer text-center">
+            <address>
+                <small class="font-weight-bold text-uppercase">&copy; todos los derechos reservados</small><br>
+                <p class="lead">LEIDY PATRICIA ARTEAGA<br>UDENAR</p>
+            </address>
+        </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>    
+    <script src="js/popper.min.js"></script>    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
